@@ -9,9 +9,13 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         float svoris = scanner.nextFloat();
         float ugis = scanner.nextFloat();
-        float KMY = svoris / (ugis * ugis);
-        System.out.println(KMY);
+        System.out.println("jusu KMY yra:" + KMYskaiciuokle(svoris, ugis));
 
 
     }
+
+    public static float KMYskaiciuokle(float svoris, float ugis) {
+        return svoris / (ugis * ugis);
+    }
+
 }
