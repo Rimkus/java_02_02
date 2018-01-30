@@ -7,15 +7,11 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
         int b = scanner.nextInt();
+        int suma = a+b;
+        int skirtumas = a-b;
+        System.out.println("suma:" +suma);
+        System.out.println("skirtumas:" + skirtumas);
 
-        System.out.println("suma:" + suma(a,b));
-        System.out.println("skirtumas:" + skirtumas(a,b));
-	// wsrite your code here
-    }
-    public static int suma(int a, int b){
-        return a+b;
-    }
-    public static int skirtumas(int a, int b){
-        return a-b;
+
     }
 }
